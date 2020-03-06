@@ -147,12 +147,14 @@ body {
 }
 
 a:link {
-  color: #b1eaff;
+  color: #0bb5f4 ;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #b1eaff;
+  color: #0bb5f4;
+ 
 }
 
 /* mouse over link */
