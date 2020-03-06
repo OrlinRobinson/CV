@@ -26,7 +26,6 @@ body {
   font-size: 16px;
 }
 
-
 .resume {
   width: 800px;
   height: auto;
@@ -146,6 +145,7 @@ body {
   width: 25%;
   display:inline-block;
 }
+
 a:link {
   color: #b1eaff;
 }
@@ -164,6 +164,27 @@ a:hover {
 a:active {
   color: yellow;
 } 
+
+
+/* .resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+} */
+
+/* .resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+} */
+
+/* .resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+} */
 
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
@@ -230,3 +251,35 @@ a:active {
   height: 185px;
   background: #0bb5f4;
 }
+
+/* .resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+} */
