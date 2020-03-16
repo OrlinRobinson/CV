@@ -10,31 +10,37 @@
 
 body {
   background:none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   color: #555555;
 }
-
-.bold {
-  font-weight: 700;
-  font-size: 20px;
+.boldname {
+  font-weight: 900;
+  font-size: 22px;
   text-transform: uppercase;
+}
+.bold {
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: -10px;
 }
 
 .semi-bold {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
+  
 }
 
 .resume {
-  width: 800px;
+  width: 1380px;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  margin: 5px auto;
 }
 
 .resume .resume_left {
-  width: 280px;
+  width: 430px;
   background: #515455;
   
 }
@@ -51,10 +57,19 @@ body {
 
 .resume .resume_left .resume_content {
   padding: 0 25px;
+  padding-bottom: 50px;
 }
 
 .resume .title {
   margin-bottom: 35px;
+}
+.resume .resume_left .boldname {
+  color: white;
+  font-size: 23pt;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
 }
 
 .resume .resume_left .bold {
@@ -68,9 +83,10 @@ body {
 
 .resume .resume_left .regular {
   color: #b1eaff;
-  font-size: 14pt;
+  font-size: 15pt;
   padding: 4 25px;
   padding-bottom: 15px;
+  text-transform: uppercase;
   
   
 }
@@ -79,6 +95,7 @@ body {
   padding: 25px 0;
   border-bottom: 2px solid #b1eaff;
   padding-bottom: 50px;
+  
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -194,14 +211,17 @@ a:active {
 }
 
 .resume .resume_right {
-  width: 520px;
+  width: 950px;
   background: rgba(184, 220, 238, 0.274);
   padding: 35px;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .resume .resume_right .bold {
   color: #0bb5f4;
+  margin-bottom: 0px;
+  
 }
 
 .resume .resume_right .resume_work ul,
@@ -216,9 +236,10 @@ a:active {
 }
 
 .resume .resume_right ul li .date {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
+  margin-top: 20px;
 }
 
 .resume .resume_right ul li .info {
@@ -226,7 +247,7 @@ a:active {
 }
 
 .resume .resume_right ul li:last-child .info {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .resume .resume_right .resume_work ul li:before,
@@ -250,11 +271,11 @@ a:active {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 185px;
+  height: 315px;
   background: #0bb5f4;
 }
 
-/* .resume .resume_right .resume_hobby ul {
+.resume .resume_right .resume_hobby ul {
   display: flex;
   justify-content: space-between;
 }
@@ -284,4 +305,4 @@ a:active {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
-} */
+}
